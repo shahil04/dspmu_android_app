@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:tooltipText="#000"
+            
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_student_corner"
+            android:icon="@drawable/ic_student_black_24dp"
+            android:title="@string/menu_student_corner"/>
+        <item
+            android:id="@+id/nav_department"
+            android:icon="@drawable/ic_developer_board_black_24dp"
+            android:title="@string/menu_department">
+        </item>
+
+        <item
+            android:id="@+id/nav_administration"
+            android:icon="@drawable/ic_student_black_24dp"
+            android:title="@string/menu_administration"/>
+        <item
+            android:id="@+id/nav_guidelines"
+            android:icon="@drawable/ic_import_contacts_black_24dp"
+            android:title="@string/menu_guidlines"/>
+        <item
+            android:id="@+id/nav_facilties"
+            android:icon="@drawable/ic_import_contacts_black_24dp"
+            android:title="@string/menu_facilties"/>
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="@string/menu_send" />
+            
+        </menu>
+    </item>
+
+    <item
+
+        android:title="Developed by AI Dreamer's"/>
+
+</menu>

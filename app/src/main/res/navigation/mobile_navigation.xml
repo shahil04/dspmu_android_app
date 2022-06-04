@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.dspmuranchi.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.dspmuranchi.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_student_corner"
+        android:name="com.example.dspmuranchi.ui.student_corner.Student_cornerFragment"
+        android:label="@string/menu_student_corner"
+        tools:layout="@layout/fragment_student_corner" />
+
+    <fragment
+        android:id="@+id/nav_department"
+        android:name="com.example.dspmuranchi.ui.departments.DepartmentFragment"
+        android:label="@string/menu_department"
+        tools:layout="@layout/fragment_departments" />
+
+    <fragment
+        android:id="@+id/nav_facilties"
+        android:name="com.example.dspmuranchi.ui.facilities.Facilities"
+        android:label="@string/menu_facilties"
+        tools:layout="@layout/facilities_fragment"/>
+
+    <fragment
+        android:id="@+id/nav_guidelines"
+        android:name="com.example.dspmuranchi.ui.guidlines.GuidlinesFragment"
+        tools:layout="@layout/fragment_guidlines"
+        android:label="@string/menu_guidlines"/>
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.dspmuranchi.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.dspmuranchi.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+    <fragment
+        android:id="@+id/nav_administration"
+        android:name="com.example.dspmuranchi.ui.administrations.Administration"
+        android:label="@string/menu_administration"
+        tools:layout="@layout/administration_fragment"/>
+    <fragment
+        android:id="@+id/nav_actionwebview"
+        android:name="com.example.dspmuranchi.ui.actions.Readmission"
+        android:label="@string/action_readmission"
+        tools:layout="@layout/fragment_action_fragment"/>
+    <fragment
+        android:id="@+id/stcorner"
+        android:name="com.example.dspmuranchi.ui.student_corner.Studentcorner_links"
+        tools:layout="@layout/fragment_studentcorner_links"/>
+
+
+
+
+</navigation>

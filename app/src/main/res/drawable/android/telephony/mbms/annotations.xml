@@ -1,0 +1,5 @@
+<root>
+    <item name='android.telephony.mbms.DownloadRequest'>
+        <annotation name='java.lang.Deprecated' />
+    </item>
+</root>

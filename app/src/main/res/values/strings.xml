@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Dspmu Ranchi</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Dspmu Ranchi</string>
+    <string name="nav_header_subtitle">Dr. Shyama Prasad Mukherjee University</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_readmission">Readmission Link</string>
+    <string name="latest_news">Latest news</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_student_corner">Student Corner</string>
+    <string name="menu_department">Departments</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Feedback</string>
+    <string name="menu_administration">Administration</string>
+    <string name="menu_guidlines">Guidlines</string>
+    <string name="menu_facilties">Facilties</string>
+    <string name="menu_about">About Us</string>
+    <string name="banner_adunit_id">ca-app-pub-9024797699896095/4335102119</string>
+    <string name="interstial_adunit_id">ca-app-pub-3940256099942544/1033173712</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
